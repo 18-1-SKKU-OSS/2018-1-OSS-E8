@@ -43,9 +43,10 @@ Role
 
 Updated
 -------
-* K-means 알고리즘 python version 추가.k-means 개념 정리 파일 추가. (2018.6 - 강병일)
+* K-means 알고리즘 python version 추가. (강병일)
 * Co-clustering 알고리즘 추가. (정상원)
 * Gaussian Mixture 알고리즘 추가. (정상원)
+* k-means 개념 정리 파일 추가. (강병일)
 * dtw 추가 (정상원)
 * Jaccard Similarity 추가 (이우중)
 * AffinityPropagation Clustering 알고리즘 추가 (이우중)
