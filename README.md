@@ -19,23 +19,25 @@ Goal
 ------
 * Project : https://github.com/NicolasHug/Surprise 참여
 
-* 정적페이지 활동 :
+* 프로젝트 활동 :
   - 프로젝트 Code Review
   - Recommender System 함수 분석
   - Recommender System 함수 추가
   - 관련 논문 Review
+  - BigData Analysis 기법 분석 및 연구
   
 * Code :
   - Recommender algorithm 함수 별 코드 추가
   - 관련 논문 리뷰 내용
   - Metric 추가
-  
+
 Role
 -------
 * 강병일 : Data set 수집
 * 홍주경 : 결과분석
 * 정상원 : 데이터 실험
 * 이우중 : Code Review
+
 * 공통 : Recommender System 알고리즘 수정 및 추가, 알고리즘 개발, 관련 논문 리뷰
   
 * 정적 페이지 : http://54.159.182.152/wordpress/index.php/
