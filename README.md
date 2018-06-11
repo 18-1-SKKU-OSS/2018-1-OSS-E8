@@ -49,7 +49,8 @@ Updated
 * dtw 추가 (정상원)
 * Jaccard Similarity 추가 (이우중)
 * AffinityPropagation Clustering 알고리즘 추가 (이우중)
-
+* Neo_CC 알고리즘 추가 (정상원)
+* Fast_CC 알고리즘 추가 (정상원)
 License
 -------
 LICENSE BSD-3-Clause 
