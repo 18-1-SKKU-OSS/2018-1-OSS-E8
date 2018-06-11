@@ -30,7 +30,9 @@ Goal
   - Recommender algorithm 함수 별 코드 추가
   - 관련 논문 리뷰 내용
   - Metric 추가
-
+  - Data Set 수집
+  
+  
 Role
 -------
 * 강병일 : Data set 수집
