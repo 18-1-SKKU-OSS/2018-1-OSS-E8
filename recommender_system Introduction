@@ -1,0 +1,73 @@
+1. Collaborative filtering
+One approach to the design of recommender systems that has wide use is collaborative filtering.[32] Collaborative filtering methods are based on collecting and analyzing a large amount of information on users’ behaviors, activities or preferences and predicting what users will like based on their similarity to other users. A key advantage of the collaborative filtering approach is that it does not rely on machine analyzable content and therefore it is capable of accurately recommending complex items such as movies without requiring an "understanding" of the item itself. Many algorithms have been used in measuring user similarity or item similarity in recommender systems. For example, the k-nearest neighbor (k-NN) approach[33] and the Pearson Correlation as first implemented by Allen.[34]
+
+Collaborative filtering is based on the assumption that people who agreed in the past will agree in the future, and that they will like similar kinds of items as they liked in the past.
+
+When building a model from a user's behavior, a distinction is often made between explicit and implicit forms of data collection.
+
+Examples of explicit data collection include the following:
+
+-Asking a user to rate an item on a sliding scale.
+-Asking a user to search.
+-Asking a user to rank a collection of items from favorite to least favorite.
+-Presenting two items to a user and asking him/her to choose the better one of them.
+-Asking a user to create a list of items that he/she likes.
+Examples of implicit data collection include the following:
+
+-Observing the items that a user views in an online store.
+-Analyzing item/user viewing times.
+-Keeping a record of the items that a user purchases online.
+-Obtaining a list of items that a user has listened to or watched on his/her computer.
+-Analyzing the user's social network and discovering similar likes and dislikes.
+The recommender system compares the collected data to similar and dissimilar data collected from others and calculates a list of recommended items for the user. Several commercial and non-commercial examples are listed in the article on collaborative filtering systems.
+
+One of the most famous examples of collaborative filtering is item-to-item collaborative filtering (people who buy x also buy y), an algorithm popularized by Amazon.com's recommender system.[36] Other examples include:
+
+As previously detailed, Last.fm recommends music based on a comparison of the listening habits of similar users, while Readgeek compares books ratings for recommendations.
+-Facebook, MySpace, LinkedIn, and other social networks use collaborative filtering to recommend new friends, groups, and other social connections (by examining the network of connections between a user and their friends).[1] Twitter uses many signals and in-memory computations for recommending to its users whom they should "follow."[6]
+-Collaborative filtering approaches often suffer from three problems: cold start, scalability, and sparsity.
+
+-Cold start: These systems often require a large amount of existing data on a user in order to make accurate recommendations
+-Scalability: In many of the environments in which these systems make recommendations, there are millions of users and products. Thus, a large amount of computation power is often necessary to calculate recommendations.
+-Sparsity: The number of items sold on major e-commerce sites is extremely large. The most active users will only have rated a small subset of the overall database. Thus, even the most popular items have very few ratings.
+A particular type of collaborative filtering algorithm uses matrix factorization, a low-rank matrix approximation technique.[38][39][40]
+
+Collaborative filtering methods are classified as memory-based and model based collaborative filtering. A well-known example of memory-based approaches is user-based algorithm[41] and that of model-based approaches is Kernel-Mapping Recommender.[42]
+
+2. Content-Based filtering
+Another common approach when designing recommender systems is content-based filtering. Content-based filtering methods are based on a description of the item and a profile of the user’s preferences.[43][44] In a content-based recommender system, keywords are used to describe the items and a user profile is built to indicate the type of item this user likes. In other words, these algorithms try to recommend items that are similar to those that a user liked in the past (or is examining in the present). In particular, various candidate items are compared with items previously rated by the user and the best-matching items are recommended. This approach has its roots in information retrieval and information filtering research.
+
+To abstract the features of the items in the system, an item presentation algorithm is applied. A widely used algorithm is the tf–idf representation (also called vector space representation).
+
+To create a user profile, the system mostly focuses on two types of information: 1. A model of the user's preference. 2. A history of the user's interaction with the recommender system.
+
+Basically, these methods use an item profile (i.e., a set of discrete attributes and features) characterizing the item within the system. The system creates a content-based profile of users based on a weighted vector of item features. The weights denote the importance of each feature to the user and can be computed from individually rated content vectors using a variety of techniques. Simple approaches use the average values of the rated item vector while other sophisticated methods use machine learning techniques such as Bayesian Classifiers, cluster analysis, decision trees, and artificial neural networks in order to estimate the probability that the user is going to like the item.[45]
+
+Direct feedback from a user, usually in the form of a like or dislike button, can be used to assign higher or lower weights on the importance of certain attributes (using Rocchio classification or other similar techniques).
+
+A key issue with content-based filtering is whether the system is able to learn user preferences from users' actions regarding one content source and use them across other content types. When the system is limited to recommending content of the same type as the user is already using, the value from the recommendation system is significantly less than when other content types from other services can be recommended. For example, recommending news articles based on browsing of news is useful, but would be much more useful when music, videos, products, discussions etc. from different services can be recommended based on news browsing.
+
+As previously detailed, Pandora Radio is a popular example of a content-based recommender system that plays music with similar characteristics to that of a song provided by the user as an initial seed. There are also a large number of content-based recommender systems aimed at providing movie recommendations, a few such examples include Rotten Tomatoes, Internet Movie Database, Jinni, Rovi Corporation, and Jaman. Document related recommender systems aim at providing document recommendations to knowledge workers. Public health professionals have been studying recommender systems to personalize health education and preventative strategies.[46][47]
+
+3. Hybrid recommender system
+collaborative-based predictions separately and then combining them; by adding content-based capabilities to a collaborative-based approach (and vice versa); or by unifying the approaches into one model (see[21] for a complete review of recommender systems). Several studies empirically compare the performance of the hybrid with the pure collaborative and content-based methods and demonstrate that the hybrid methods can provide more accurate recommendations than pure approaches. These methods can also be used to overcome some of the common problems in recommender systems such as cold start and the sparsity problem.
+
+Netflix is a good example of the use of hybrid recommender systems.[48] The website makes recommendations by comparing the watching and searching habits of similar users (i.e., collaborative filtering) as well as by offering movies that share characteristics with films that a user has rated highly (content-based filtering).
+
+A variety of techniques have been proposed as the basis for recommender systems: collaborative, content-based, knowledge-based, and demographic techniques. Each of these techniques has known shortcomings, such as the well known cold-startproblem for collaborative and content-based systems (what to do with new users with few ratings) and the knowledge engineering bottleneck[49] in knowledge-based approaches. A hybrid recommender system is one that combines multiple techniques together to achieve some synergy between them.
+
+-Collaborative: The system generates recommendations using only information about rating profiles for different users or items. Collaborative systems locate peer users / items with a rating history similar to the current user or item and generate recommendations using this neighborhood. The user based and the item based nearest neighbor algorithms can be combined to deal with the cold start problem and improve recommendation results.[50]
+-Content-based: The system generates recommendations from two sources: the features associated with products and the ratings that a user has given them. Content-based recommenders treat recommendation as a user-specific classification problem and learn a classifier for the user's likes and dislikes based on product features.
+-Demographic: A demographic recommender provides recommendations based on a demographic profile of the user. Recommended products can be produced for different demographic niches, by combining the ratings of users in those niches.
+-Knowledge-based: A knowledge-based recommender suggests products based on inferences about a user’s needs and preferences. This knowledge will sometimes contain explicit functional knowledge about how certain product features meet user needs.[51][52]
+The term hybrid recommender system is used here to describe any recommender system that combines multiple recommendation techniques together to produce its output. There is no reason why several different techniques of the same type could not be hybridized, for example, two different content-based recommenders could work together, and a number of projects have investigated this type of hybrid: NewsDude, which uses both naive Bayes and kNN classifiers in its news recommendations is just one example.[51]
+
+Seven hybridization techniques:
+
+-Weighted: The score of different recommendation components are combined numerically.
+-Switching: The system chooses among recommendation components and applies the selected one.
+-Mixed: Recommendations from different recommenders are presented together to give the recommendation.
+-Feature Combination: Features derived from different knowledge sources are combined together and given to a single recommendation algorithm.
+-Feature Augmentation: One recommendation technique is used to compute a feature or set of features, which is then part of the input to the next technique.
+-Cascade: Recommenders are given strict priority, with the lower priority ones breaking ties in the scoring of the higher ones.
+-Meta-level: One recommendation technique is applied and produces some sort of model, which is then the input used by the next technique.[51]
