@@ -59,6 +59,7 @@ Updated
 * Fast_CC 알고리즘 추가 (정상원)
 * Recommender system 기본 개요에 대한 내용 추가 (정상원)
 * Recommender system에서 주요하게 issue가 되고 있는 문제들, Long tail, Cold start 내용 추가 (정상원)
+* Multi-label classification data set 'Medical' 데이터 추가 (강병일)
 
 License
 -------
