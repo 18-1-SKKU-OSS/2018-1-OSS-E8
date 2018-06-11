@@ -36,13 +36,13 @@ Goal
 Role
 -------
 * 강병일 : Data set 수집
-* 홍주경 : 결과분석
+* 홍주경 : 결과분석, 홈페이지 제작
 * 정상원 : 데이터 실험
 * 이우중 : Code Review
 
 * 공통 : Recommender System 알고리즘 수정 및 추가, 알고리즘 개발, 관련 논문 리뷰
   
-* 정적 페이지 : http://54.159.182.152/wordpress/index.php/
+* 정적 페이지 : http://oss2018e8.dothome.co.kr
 
 
 Updated
