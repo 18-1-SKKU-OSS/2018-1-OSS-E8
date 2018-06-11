@@ -238,22 +238,4 @@ For the latest version, you can also clone the repo and build the source
     $ cd surprise
     $ python setup.py install
 
-License
--------
-
-This project is licensed under the [BSD
-3-Clause](https://opensource.org/licenses/BSD-3-Clause) license, so it can be
-used for pretty much everything, including commercial applications. Please let
-us know how [Surprise](http://surpriselib.com) is useful to you!
-
-Here is a Bibtex entry if you ever need to cite Surprise in a research paper
-(please keep us posted, we would love to know if Surprise was helpful to you):
-
-    @Misc{Surprise,
-    author =   {Hug, Nicolas},
-    title =    { {S}urprise, a {P}ython library for recommender systems},
-    howpublished = {\url{http://surpriselib.com}},
-    year = {2017}
-    }
-
 
