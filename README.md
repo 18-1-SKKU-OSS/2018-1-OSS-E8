@@ -256,31 +256,4 @@ Here is a Bibtex entry if you ever need to cite Surprise in a research paper
     year = {2017}
     }
 
-Contributors
-------------
 
-The following persons have contributed to [Surprise](http://surpriselib.com):
-
-Олег Демиденко, Charles-Emmanuel Dias, dmamylin, franckjay, Lukas Galke,
-Pierre-François Gimenez, Nicolas Hug, Hengji Liu,  Maher Malaeb, Manoj K,
-Naturale0, nju-luke, Skywhat, David Stevens, Mike Lee Williams, Chenchen Xu,
-YaoZh1918.
-
-Thanks a lot :) !
-
-Contributing, feedback, contact
--------------------------------
-
-Any kind of feedback/criticism would be greatly appreciated (software design,
-documentation, improvement ideas, spelling mistakes, etc...).
-
-If you'd like to see some features or algorithms implemented in
-[Surprise](http://surpriselib.com), please let us know!
-
-Please feel free to contribute (see
-[guidelines](https://github.com/NicolasHug/Surprise/blob/master/CONTRIBUTING.md))
-and send pull requests!
-
-For bugs, issues or questions about [Surprise](http://surpriselib.com), you can
-use the GitHub [project page](https://github.com/NicolasHug/Surprise) (please
-don't send me emails as there would be no record for other users).
