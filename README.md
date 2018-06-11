@@ -26,9 +26,9 @@ Goal
   - 관련 논문 Review
   
 * Code :
-  - Recommender system 함수 별 코드 추가
+  - Recommender algorithm 함수 별 코드 추가
   - 관련 논문 리뷰 내용
-  
+  - Metric 추가
   
 Role
 -------
