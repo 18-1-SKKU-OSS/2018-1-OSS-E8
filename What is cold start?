@@ -1,0 +1,16 @@
+Cold start is a potential problem in computer-based information systems which involve a degree of automated data modelling. 
+Specifically, it concerns the issue that the system cannot draw any inferences for usersor items about which it has not yet gathered sufficient information.
+
+System affected
+The cold start problem is most prevalent in recommender systems.
+Recommender systems form a specific type of information filtering (IF) technique that attempts to present information items (movies, music, books, news, images, web pages) that are likely of interest to the user. Typically, a recommender system compares the user's profile to some reference characteristics. These characteristics may be from the information item (the content-based approach) or the user's social environment (the collaborative filtering approach).
+
+In the content-based approach, the system must be capable of matching the characteristics of an item against relevant features in the user's profile or, in case no user's features are available, content-based algorithms can rely on the item's features alone. In order to do this, it must first construct a sufficiently-detailed model of the user's tastes and preferences through preference elicitation. This may be done either explicitly (by querying the user) or implicitly (by observing the user's behaviour). 
+In both cases, the cold start problem would imply that the user has to dedicate an amount of effort using the system in its 'dumb' state – contributing to the construction of their user profile – before the system can start providing any intelligent recommendations.
+
+In the collaborative filtering approach, the recommender system would identify users who share the same preferences (e.g. rating patterns, interactions) with the active user, and propose items which the like-minded users favoured (and the active user has not yet seen). Due to the cold start problem, this approach would not consider items that no user had yet rated, therefore no new items can be recommended. 
+[1] As opposed to content-based algorithms, which can deal easily with cold-start items, collaborative filtering is highly affected and requires other strategies to be put in place (e.g. hybrid algorithms).
+
+The cold start problem is also exhibited by interface agents. 
+Since such an agent typically learns the user's preferences implicitly by observing patterns in the user's behaviour – "watching over the shoulder" – it would take time before the agent may perform any adaptations personalised to the user. 
+Even then, its assistance would be limited to activities which it has formerly observed the user engaging in
