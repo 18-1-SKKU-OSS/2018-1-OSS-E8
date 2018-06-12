@@ -35,8 +35,8 @@ Goal
   
 Role
 -------
-* 강병일 : Data set 수집
-* 홍주경 : 결과분석, 홈페이지 제작
+* 강병일 : Data set 수집, Github Page 관리
+* 홍주경 : 결과분석, 정적 페이지 제작
 * 정상원 : 데이터 실험
 * 이우중 : Code Review
 
